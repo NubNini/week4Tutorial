@@ -15,3 +15,6 @@ app.listen("8080", () => {
 // push code to github
 //git init the repo
 //git remote add origin https://github.com/NubNini/week4Tutorial.git
+// git add -A
+// git commit -m "first version"
+//git push --set-upstream origin master
