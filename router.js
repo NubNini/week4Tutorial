@@ -25,7 +25,7 @@ router.get("/deleteNumber/:number", (req, res) => {
   //number = 5
   let number = req.params.number;
   let index = db.indexOf(number);
-  //if this number doesnt exist in db
+  //if this number doesnt exist in db it will return -1
   if (index == -1) {
     res.send("number does not exist (index not found) ");
   } else {
